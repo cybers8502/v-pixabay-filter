@@ -2,27 +2,6 @@
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 
-/**
- * Set up a placeholder animation
- */
-::-webkit-input-placeholder,
-:-moz-placeholder,
-.placeholder {
-  color: $color-placeholder;
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease;
-}
-:focus{
-  color: $opacity-placeholder !important;
-
-  &::-webkit-input-placeholder,
-  &:-moz-placeholder,
-  &:-moz-placeholder,
-  &:-ms-input-placeholder {
-    color: $opacity-placeholder !important;
-  }
-}
-
 body{
   display: flex;
   flex-direction: column;
@@ -31,20 +10,11 @@ body{
   position: relative;
   min-width: 320px;
   min-height: 100%;
+  color: $text-color;
   font-family: $text-font-stack;
-  font-size: 28px;
 
   & > * {
     width: 100%;
-  }
-
-  li, p, h1, h2, h3,
-  h4, h5, h6 {
-    font-size: inherit;
-    line-height: inherit;
-    padding: 0;
-    margin: 0;
-    color: #2d2e2f;
   }
 }
 

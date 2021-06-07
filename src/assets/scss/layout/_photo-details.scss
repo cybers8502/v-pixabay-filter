@@ -1,0 +1,73 @@
+.photo-details {
+    font-size: 18px;
+    line-height: 1.2;
+
+    &__wrap {
+
+        p{
+            margin-bottom: 15px;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    &__picture {
+        margin: 20px auto;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__author {
+        display: flex;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+
+        &-photo {
+            width: 100px;
+            margin-right: 20px;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    &__tags {
+        margin-bottom: 20px;
+    }
+
+    &__label {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 15px;
+
+        svg {
+            width: 20px;
+            margin-right: 12px;
+            fill: currentColor;
+        }
+    }
+
+    &__empty {
+        font-size: 24px;
+        text-align: center;
+
+        svg {
+            max-width: 250px;
+            margin-bottom: 30px;
+        }
+    }
+}

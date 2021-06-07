@@ -29,7 +29,7 @@ npm install
 ## Environment
 **Variable** | **Description**
 ------------- | -------------
-**`API_PIXABAY`**  | Get own API key at https://pixabay.com/api/docs/
+**`VUE_APP_PIXABAY`**  | Get own API key at https://pixabay.com/api/docs/
 
 ### Lints
 ```
@@ -52,6 +52,3 @@ npm run build
 >max.tkh.ua@gmail.com
 >
 >https://github.com/cybers8502
-
-
-[]: https://pixabay.com/api/?key={

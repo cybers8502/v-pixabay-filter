@@ -15,7 +15,15 @@
 './base/helpers';
 
 // 4. Layout-related sections
+@import
+'./layout/site',
+'./layout/photo-details',
+'./layout/hits-list';
 
 // 5. Components
 @import
-'./components/button';
+'./components/button',
+'./components/loader',
+'./components/tags',
+'./components/filter',
+'./components/tags-filter';

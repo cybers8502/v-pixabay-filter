@@ -3,10 +3,7 @@
 // -----------------------------------------------------------------------------
 
 /// @type List
-$text-font-stack: 'Inter', 'Arial', sans-serif !default;
-
-/// @type Layer's Size
-$preloader-size: 60px;
+$text-font-stack: 'Roboto', 'Arial', sans-serif !default;
 
 /// @type Screen Sizes
 $phone-landscape: 480px;
@@ -16,11 +13,4 @@ $large-tablets: 1024px;
 $desktop: 1200px;
 
 /// @type Length
-$max-width: 1260px !default;
-
-/// Breakpoints map
-$breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
-) !default;
+$max-width: 768px !default;
